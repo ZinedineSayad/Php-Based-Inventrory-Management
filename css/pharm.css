@@ -1,0 +1,166 @@
+/*login as admin form*/
+.loginAsAdminForm
+{
+	position: absolute;
+	border: 1px solid #4e4e4e;
+	width: 320px;
+	padding: 20px 30px;	
+	height: 400px;
+	top:150px;
+	color:#ffffff;
+	background-color: #4e4e4e;
+	display: none;
+}
+
+.loginError{
+	width:320px;
+}
+
+.loginAsEmployeeForm
+{
+	position: absolute;
+	border: 1px solid #4e4e4e;
+	width: 320px;
+	padding: 20px 30px;
+	color:#ffffff;	
+	height: 400px;
+	top:150px;
+	left:650px;
+	background-color: #4e4e4e;
+	display: none;
+}
+
+
+/*dashboard page*/
+.dashboardMenu
+{
+	display: inline-block;
+	background-color: #f1f1f1;
+	padding:12px;
+	width: 300px;
+	vertical-align: top;
+	margin-top: 10px;
+}
+.dashboardMenu .btn
+{	
+	width:276px;
+	height:50px;
+	line-height: 50px;
+	margin-bottom: 12px;
+	background-color: #4e4e4e;
+}
+
+.dashboardCore
+{
+	display: inline-block;
+	background-color: #f1f1f1;
+	color: #4e4e4e;
+	padding-left: 60px;
+	padding-right: 60px;
+	width:635px;
+	vertical-align: top;
+	margin-top: 10px;
+}
+.dashboardErrorAddEmployee , .dashboardErrorAddProduct
+{
+	background-color: #d30202;
+	height: 54px;
+	padding-top: 1px;
+	padding-left: 10px;
+	color:#ffffff;
+}
+
+.dashboardsuccessAddEmployee, .dashboardsuccessAddProduct
+{
+	background-color: green;
+	height: 54px;
+	padding-top: 1px;
+	padding-left: 10px;
+	color:#ffffff;
+}
+
+/*manage elmployees*/
+.updatePostEmploueeManagement, .updatePostProductManagement
+{
+	position: absolute;
+	top: 120px;
+	background-color: grey;
+	height:400px;
+	left: 600px;
+	width:350px;
+	padding:20px;
+	display:none;
+}
+.delateEmployeeform, .delateProductform
+{
+	position: absolute;
+	font-color:black;
+	top: 200px;
+	background-color: grey;
+	left: 600px;
+	width:300px;
+	padding:20px;
+	display:none;
+}
+.a {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+}
+.a1
+{
+	padding-left: 10px;
+}
+
+/* Floating column for inputs: 75% width */
+.rows {
+  float: left;
+  width: 100%;
+  margin-top: 6px;
+}
+@media screen and (max-width: 600px) {
+    .a{
+        width: 100%;
+        margin-top: 0;
+    }
+    .a1{
+    	padding-left: 0px;
+    }
+}
+
+@font-face {
+   font-family: 'Material Icons';
+   font-style: normal;
+   font-weight: 400;
+   src: url(MaterialIcons-Regular.eot); /* For IE6-8 */
+   src: local('Material Icons'),
+        local('MaterialIcons-Regular'),
+        url(MaterialIcons-Regular.woff2) format('woff2'),
+        url(MaterialIcons-Regular.woff) format('woff'),
+        url(MaterialIcons-Regular.ttf) format('truetype');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
